@@ -27,7 +27,7 @@ function start(port) {
 
 app.get('/',(req,res)=>{
     console.log("heey")
-    res.send("مساء البطاطا")
+    res.send(" (= مساء البطاطا")
 })
 
 app.use('*', notFoundHandler);
